@@ -32,6 +32,6 @@ jobs:
           max-commits: 5
           commit-message: "Completed learning some topics of JS - ${{ steps.date.outputs.date }}"
           user-name: "ashwinibaliga"
-          user-email: "ashwinibliga08@gmail.com"
+          user-email: "ashwinibaliga08@gmail.com"
           github-token: ${{ secrets.GITHUB_TOKEN }}
           branch-name: "main"
